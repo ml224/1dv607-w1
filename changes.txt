@@ -1,0 +1,17 @@
+Changes that were made
+1. Quantity
+Based on the reviews that I received, I realized that I needed to make my domain model more compact. Everyone stated that there were too many domain models and that it was hard to follow, as they were not closely related. 
+
+2. Structure and language
+I was not aware of the rule of naming classes, attributes or associations and made fixes to this (e.g. capitalized letters etcetera). I also realized that some of the names simply did not make sense, based on the reviews (one of them being "system"). I also received the feedback to include multiplicity in the associations, which I did.  
+
+Feedback that I did not implement 
+1. Unnecessary classes
+I received the feedback that including the conceptual class treasurer was unnecessary- I do also see that the workshop instructions clearly state that my analysis only should include the specific requirements, however I would argue that the relationship between the requirement "change/update/remove boat" and treasurer is of importance. I want to highlight the relationship between the scenarios and the financial aspect, as it is said to be the biggest problem for the yacht club.
+
+2. Erasing the class "Account" and use it as an attribute of "Member" 
+I also received the feedback that account should be an attribute under member, rather than a class on its own. However, I find this incorrect as an account is not a data-type. I believe that account would represent a foreign key if used as an attribute. 
+
+3. Using Packages
+Lastly, I was advised to use packages with a reference to chapter 13 in the course literature. In the introduction of chapter 13, the author is stating that we are moving from analysis to software design, which makes me question whether or not packages are used in the domain model as well. 
+
